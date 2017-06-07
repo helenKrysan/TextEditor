@@ -25,6 +25,7 @@ public class Word extends JFrame {
 	private int beginCaret, endCaret = 0; //selected text
 	private boolean boldpress,italianpress, underlinepress = false;  
 	private UndoManager undo = new UndoManager();
+	private int test;
 
 	ActionMap m = field.getActionMap(); //default copy/cut/paste action
 	Action Cut = m.get(DefaultEditorKit.cutAction);
