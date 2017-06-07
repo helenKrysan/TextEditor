@@ -1,4 +1,4 @@
-//графічний редактор, виконала крисан Олена
+2//ГЈГ°Г ГґВіГ·Г­ГЁГ© Г°ГҐГ¤Г ГЄГІГ®Г°, ГўГЁГЄГ®Г­Г Г«Г  ГЄГ°ГЁГ±Г Г­ ГЋГ«ГҐГ­Г 
 package com.krysan;
 
 import java.awt.*;
@@ -25,7 +25,7 @@ public class Word extends JFrame {
 	private int beginCaret, endCaret = 0; //selected text
 	private boolean boldpress,italianpress, underlinepress = false;  
 	private UndoManager undo = new UndoManager();
-	private int test;
+	private int test2;
 
 	ActionMap m = field.getActionMap(); //default copy/cut/paste action
 	Action Cut = m.get(DefaultEditorKit.cutAction);
